@@ -3,7 +3,7 @@
  * @copyright 2017, Mirko Ferraro <mirkoferraro@gmail.com>
  * @link https://github.com/mirkoferraro/convert.js
  * @license MIT
- * @version 1.0.0
+ * @version 1.0.1
  */
 (function(root, factory) {
 
@@ -92,56 +92,6 @@
 
             return func(from_value)
         }
-
-
-        // function _getMeasureString(str) {
-        //     for (var name in conversion_table) {
-                
-        //         if (typeof conversion_table[name].regexp_measure === 'undefined') {
-        //             conversion_table[name].regexp_measure = new RegExp('(' + conversion_table[name].match + ')?')
-        //         }
-
-        //         var match = conversion_table[name].regexp_measure.exec(str)
-
-        //         if (match && match[1]) {
-        //             return name
-        //         }
-        //     }
-
-        //     return null
-        // }
-
-        // function _getValueMeasureString(str) {
-        //     var match
-
-        //     for (var name in conversion_table) {
-                
-        //         if (typeof regexps[name] === 'undefined') {
-        //             regexps[name] = new RegExp('(\\d+)?(' + conversion_table[name].match + ')?')
-        //         }
-
-        //         match = regexps[name].exec(str)
-
-        //         if (match) {
-        //             return {
-        //                 value:   parseFloat(match[1]),
-        //                 measure: name
-        //             }
-        //         }
-        //     }
-
-        //     match = new RegExp('(\\d+)').exec(str)
-
-        //     if (match) {
-        //         return {
-        //             value:   parseFloat(match[1]),
-        //             measure: null
-        //         }
-        //     }
-
-        //     return null
-        // }
-
 
         return {
             get:     get,

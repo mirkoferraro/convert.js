@@ -17,3 +17,8 @@ convert('15°C').to('°F') // 59
 * from °K to °F
 * from °F to °C
 * from °F to °K
+
+## Installation
+```
+npm install convert-js
+```
