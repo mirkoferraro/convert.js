@@ -1,0 +1,28 @@
+{
+  "name": "convert-js",
+  "version": "1.0.0",
+  "description": "Measure converter in javascript",
+  "main": "dist/convert.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirkoferraro/convert.js.git"
+  },
+  "keywords": [
+    "measure",
+    "convert",
+    "converter"
+  ],
+  "author": "Mirko Ferraro <mirkoferraro@gmail.com> (http://mirkoferraro.it)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirkoferraro/convert.js/issues"
+  },
+  "homepage": "https://github.com/mirkoferraro/convert.js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.0",
+    "jquery": "^3.1.1",
+    "webpack": "^2.2.1"
+  }
+}
