@@ -12,6 +12,7 @@ convert('15').measure('°C').to('°F') // 59
 ```
 
 ## Measures supports
+
 ### Temperature
 * from °C to °K
 * from °C to °F
@@ -19,6 +20,7 @@ convert('15').measure('°C').to('°F') // 59
 * from °K to °F
 * from °F to °C
 * from °F to °K
+
 ### Weight
 * from g to oz
 * from g to lb
