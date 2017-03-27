@@ -147,7 +147,7 @@
                 return _measure
             }
 
-            if (typeof num !== 'string') {
+            if (typeof str !== 'string') {
                 throw new TypeError('Convert: argument passed to function "measure" is not a string')
             }
 
@@ -158,7 +158,7 @@
             }
 
             _measure = match.measure
-
+            return this
         }
         
         function to(str) {
@@ -215,6 +215,36 @@
         },
         fahrenheit: function(val) {
             return val * 1.8 - 459.67
+        }
+    })
+
+    table.set('grams', {
+        match: 'g|grams',
+        pounds: function(val) {
+            return val * 0.0022046
+        },
+        ounces: function(val) {
+            return val * 0.035274
+        }
+    })
+
+    table.set('pounds', {
+        match: 'lb|pounds',
+        grams: function(val) {
+            return val / 0.0022046
+        },
+        ounces: function(val) {
+            return val / 0.062500
+        }
+    })
+
+    table.set('ounces', {
+        match: 'oz|ounces',
+        grams: function(val) {
+            return val / 0.035274
+        },
+        pounds: function(val) {
+            return val * 0.062500
         }
     })
 
