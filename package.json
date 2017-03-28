@@ -1,6 +1,6 @@
 {
   "name": "convert-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Measure converter in javascript",
   "main": "dist/convert.min.js",
   "repository": {
@@ -10,7 +10,10 @@
   "keywords": [
     "measure",
     "convert",
-    "converter"
+    "converter",
+    "temperature",
+    "weight",
+    "length"
   ],
   "author": "Mirko Ferraro <mirkoferraro@gmail.com> (http://mirkoferraro.it)",
   "license": "MIT",
