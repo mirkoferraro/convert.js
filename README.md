@@ -29,6 +29,14 @@ convert('15').measure('°C').to('°F') // 59
 * from lb to g
 * from lb to oz
 
+### Length
+* from m to yd
+* from m to ft
+* from yd to m
+* from yd to ft
+* from ft to m
+* from ft to yd
+
 ## Installation
 ```
 npm install convert-js

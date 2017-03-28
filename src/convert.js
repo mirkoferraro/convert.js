@@ -248,6 +248,36 @@
         }
     })
 
+    table.set('metres', {
+        match: 'm|metres',
+        yards: function(val) {
+            return val * 1.0936
+        },
+        feet: function(val) {
+            return val * 3.2808
+        }
+    })
+
+    table.set('yards', {
+        match: 'yd|yards',
+        metres: function(val) {
+            return val / 1.0936
+        },
+        feet: function(val) {
+            return val * 3
+        }
+    })
+
+    table.set('feet', {
+        match: 'ft|feet',
+        metres: function(val) {
+            return val / 3.2808
+        },
+        yards: function(val) {
+            return val / 3
+        }
+    })
+
     function createConvert(arg) {
         if ('table' == arg.toLowerCase()) {
             return table;
