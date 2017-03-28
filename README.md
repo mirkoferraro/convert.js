@@ -37,6 +37,31 @@ convert('15').measure('°C').to('°F') // 59
 * from ft to m
 * from ft to yd
 
+
+## Custom conversion
+You can also add you custom conversion to the conversion table
+```
+convert('table').set('custom1', {
+    match: 'c1|custom1',
+    custom2: function(val) {
+        return (val + 2) * 5
+    }
+})
+
+convert('table').set('custom2', {
+    match: 'c2|custom2',
+    custom1: function(val) {
+        return val / 5 - 2
+    }
+})
+```
+
+And then use it as shown
+```
+convert('35c1').to('c2') // 185
+```
+
+
 ## Installation
 ```
 npm install convert-js
