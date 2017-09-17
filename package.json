@@ -1,6 +1,6 @@
 {
   "name": "convert-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Measure converter in javascript",
   "main": "dist/convert.min.js",
   "repository": {
@@ -11,11 +11,29 @@
     "measure",
     "convert",
     "converter",
+    "length",
+    "storage",
     "temperature",
-    "weight",
-    "length"
+    "volume",
+    "weight"
   ],
-  "author": "Mirko Ferraro <mirkoferraro@gmail.com> (http://mirkoferraro.it)",
+  "author": {
+    "name" : "Mirko Ferraro",
+    "email" : "mirkoferraro@gmail.com",
+    "url" : "http://mirkoferraro.it"
+  },
+  "contributors": [
+    {
+      "name" : "Mirko Ferraro",
+      "email" : "mirkoferraro@gmail.com",
+      "url" : "http://mirkoferraro.it"
+    },
+    {
+      "name" : "William Mincy",
+      "email" : "william.mincy@gmail.com",
+      "url" : "http://williammincy.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mirkoferraro/convert.js/issues"
