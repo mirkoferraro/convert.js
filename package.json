@@ -18,20 +18,25 @@
     "weight"
   ],
   "author": {
-    "name" : "Mirko Ferraro",
-    "email" : "mirkoferraro@gmail.com",
-    "url" : "http://mirkoferraro.it"
+    "name": "Mirko Ferraro",
+    "email": "mirkoferraro@gmail.com",
+    "url": "http://mirkoferraro.it"
   },
   "contributors": [
     {
-      "name" : "Mirko Ferraro",
-      "email" : "mirkoferraro@gmail.com",
-      "url" : "http://mirkoferraro.it"
+      "name": "Mirko Ferraro",
+      "email": "mirkoferraro@gmail.com",
+      "url": "http://mirkoferraro.it"
     },
     {
-      "name" : "William Mincy",
-      "email" : "william.mincy@gmail.com",
-      "url" : "http://williammincy.com"
+      "name": "William Mincy",
+      "email": "william.mincy@gmail.com",
+      "url": "http://williammincy.com"
+    },
+    {
+      "name": "Charlie Fish",
+      "email": "fishcharlie.code@gmail.com",
+      "url": "https://blog.charlie.fish"
     }
   ],
   "license": "MIT",
