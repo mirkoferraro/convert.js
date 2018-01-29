@@ -572,6 +572,74 @@
             return val * 4.9709695378987e-9
         }
     })
+	
+  	table.set('millimetres', {
+  		match: 'mm|millimetres',
+  		nanometres: function(val) {
+  			return val * 1000000
+  		},
+      micrometres: function(val) {
+        return val * 1000
+      },
+  		centimetres: function(val) {
+  			return val * 0.1
+  		},
+  		metres: function(val) {
+  			return val * 0.001
+  		},
+  		kilometres: function(val) {
+  			return val * 0.000001
+  		},
+  		inches: function(val) {
+  			return val * 0.0393700787
+  		},
+  		feet: function(val) {
+  			return val * 0.0032808398
+  		},
+  		yards: function(val) {
+  			return val * 0.0010936133
+  		},
+  		miles: function(val) {
+  			return val * 6.21371192e-7
+  		},
+  		furlong: function(val) {
+  			return val * 0.0000049709
+  		}
+  	})
+	
+  	table.set('centimetres', {
+  		match: 'cm|centimetres',
+  		nanometres: function(val) {
+  			return val * 10000000
+  		},
+      micrometres: function(val) {
+        return val * 10000
+      },
+  		millimetres: function(val) {
+  			return val * 10
+  		},
+  		metres: function(val) {
+  			return val * 0.01
+  		},
+  		kilometres: function(val) {
+  			return val * 0.00001
+  		},
+  		inches: function(val) {
+  			return val * 0.393700787
+  		},
+  		feet: function(val) {
+  			return val * 0.0328083989
+  		},
+  		yards: function(val) {
+  			return val * 0.0109361329
+  		},
+  		miles: function(val) {
+  			return val * 0.0000062137
+  		},
+  		furlong: function(val) {
+  			return val * 0.0000497096
+  		}
+  	})
     
     table.set('metres', {
         match: 'm|metres',
