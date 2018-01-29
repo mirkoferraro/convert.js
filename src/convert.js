@@ -3,7 +3,7 @@
  * @copyright 2017, Mirko Ferraro <mirkoferraro@gmail.com>
  * @link https://github.com/mirkoferraro/convert.js
  * @license MIT
- * @version 1.0.5
+ * @version 1.0.6
  */
 (function (root, factory) {
 
